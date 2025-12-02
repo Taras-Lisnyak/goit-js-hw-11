@@ -22,7 +22,7 @@ form.addEventListener("submit", async (event) => {
   }
 
   clearGallery();
-  showLoader(); // ← додано пропущену крапку з комою
+  showLoader(); 
 
   try {
     const data = await getImagesByQuery(query);
